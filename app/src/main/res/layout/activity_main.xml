@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_hacker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAIYRA AI"
+            android:textColor="#00E5FF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADVANCED AI ASSISTANT"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="EN / HI"
+                android:background="@drawable/panel_bg"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:text="SETTINGS"
+                android:background="@drawable/panel_bg"/>
+
+        </LinearLayout>
+        <FrameLayout
+               android:layout_width="300dp"
+               android:layout_height="300dp"
+               android:layout_gravity="center">
+
+     <ImageView
+              android:layout_width="300dp"
+              android:layout_height="300dp"
+              android:background="@drawable/hud_ring"/>
+     <com.laiyra.ai.ParticleView
+              android:id="@+id/particleView"
+              android:layout_width="300dp"
+              android:layout_height="300dp"/>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="la"
+        android:textColor="#88BFFFFF"
+        android:textSize="42sp"
+        android:textStyle="bold"/>
+
+      </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAIYRA"
+            android:textColor="#00E5FF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <!-- Chat Window -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/panel_bg"
+            android:padding="10dp"
+            android:text="LAIYRA: Hello Sir...\n\nUSER: ..."
+            android:textColor="#FFFFFF"/>
+
+        <!-- Feature Row 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:text="CHAT"
+                android:background="@drawable/panel_bg"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:text="AI SEARCH"
+                android:background="@drawable/panel_bg"/>
+
+        </LinearLayout>
+
+        <!-- Feature Row 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:text="IMAGE AI"
+                android:background="@drawable/panel_bg"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:text="WEB"
+                android:background="@drawable/panel_bg"/>
+
+        </LinearLayout>
+
+        <!-- Feature Row 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:text="FILES"
+                android:background="@drawable/panel_bg"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:text="TOOLS"
+                android:background="@drawable/panel_bg"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

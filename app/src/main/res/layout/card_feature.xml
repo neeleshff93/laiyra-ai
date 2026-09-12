@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#10141F">
+
+    <ImageView
+        android:id="@+id/cardIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/cardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHAT"
+        android:textColor="#00FFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

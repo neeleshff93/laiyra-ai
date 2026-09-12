@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_hacker">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAIYRA AI"
+        android:textColor="#00E5FF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADVANCED AI ASSISTANT"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/leftPanel"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/subtitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/panel_bg"
+        android:gravity="center"
+        android:text="CPU&#10;98%&#10;&#10;RAM&#10;76%"
+        android:textColor="#00FFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/rightPanel"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/subtitle"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/panel_bg"
+        android:gravity="center"
+        android:text="AI&#10;ONLINE"
+        android:textColor="#FF0044"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/hudRing"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/subtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/hud_ring"/>
+
+    <TextView
+        android:id="@+id/coreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAIYRA"
+        android:textColor="#00E5FF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/subtitle"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI ONLINE"
+        android:textColor="#00FF66"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/hudRing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/featureRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="CHAT"
+            android:textColor="#00FFFF"
+            android:background="@drawable/panel_bg"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="1dp"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="AI SEARCH"
+            android:textColor="#00FFFF"
+            android:background="@drawable/panel_bg"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/featureRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/featureRow1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="IMAGE AI"
+            android:textColor="#00FFFF"
+            android:background="@drawable/panel_bg"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="1dp"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="WEB"
+            android:textColor="#00FFFF"
+            android:background="@drawable/panel_bg"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
